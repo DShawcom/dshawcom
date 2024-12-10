@@ -1,0 +1,64 @@
+body {
+    background-position: top;
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-color: darkslategrey;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(70, 119, 207);
+    text-align: end;
+    font-size: 9em;
+    border: 20px;
+    padding: 10px;
+    margin: 10px;
+        
+}
+h2,h3,h4,h5,h6 {
+    color: rgb(255, 253, 220);
+    font-family:  Copperplate, Helvetica, sans-serif;
+}
+p {
+    color: rgb(70, 119, 207); 
+    font-family:  Copperplate, Helvetica, sans-serif;
+    text-align:end;
+    vertical-align: bottom;
+}
+
+button {
+    border: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-family: copperplate, Helvetica, sans-serif;
+    font-size: 2.3em;
+    background-color: rgb(70, 119, 207);
+}
+
+.post {
+  height:fit-content;
+  width: fit-content;
+  padding: 5px;
+  text-align: left;
+  position: absolute;
+  right: 30px;
+  
+}
+.post h2  {
+  color: #dadada;
+  font-size:25px;
+  font-family: Lora, Baskerville, serif;
+  margin: 0;
+  background-color: rgba(0,0,0,0.3);
+  
+}
+.post p  {
+  color: #dadada;
+  font-size:25px;
+  font-family: Lora, Times New Roman, serif;
+  margin: 0;
+  background-color: rgba(0,0,0,0.3);
+top: 84px;
+}
+.post a {
+  color: #dadada;
+}

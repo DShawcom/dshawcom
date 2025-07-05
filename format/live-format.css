@@ -1,6 +1,7 @@
 .title  {
   background-color: darkslategrey;
   font-family: Helvetica, sans-serif;
+  position:fixed;
 }
 body {
     background-position: top;

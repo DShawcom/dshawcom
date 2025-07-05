@@ -17,6 +17,7 @@ h1  {
   margin: 0;
   background-color: rgba(0,0,0,0.5);
   padding: 10px;
+  position:fixed;
 }
 a{
   color:whitesmoke;

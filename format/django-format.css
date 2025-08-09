@@ -8,6 +8,9 @@ body {
     background-repeat: no-repeat;
     background-color: darkslategrey;
 }
+a{
+  color:whitesmoke;
+}
 h1  {
   color: whitesmoke;
   font-size:50px;

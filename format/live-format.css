@@ -17,7 +17,6 @@ h1  {
   margin: 0;
   background-color: rgba(0,0,0,0.5);
   padding: 10px;
-  position:fixed;
 }
 a{
   color:whitesmoke;
@@ -63,7 +62,6 @@ p{
   overflow: hidden;
   background-color: rgba(0,0,0,0.5);
   font-family: Helvetica, sans-serif;
-  position:fixed;
   top:72px;
 }
 .navbar.navbar {
@@ -107,7 +105,6 @@ p{
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  position: absolute;
   background-color: rgba(0,0,0,0.5);
   min-width: 160px;
   box-shadow: none;

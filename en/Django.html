@@ -2,23 +2,49 @@
 <link rel="stylesheet" href="/format/django-format.css">
 <style>
                 body {
-                background-image: url(/img/djangobg.png);
-                background-attachment: fixed; 
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures it covers the whole screen */
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
             }
 </style>
+
+
 <html lang="en">
     <head>
-    <title>Django Shaw</title>
-    <link rel="icon" href="favicon.png">
+        <title>Django Shaw</title>
+        <link rel="icon" href="favicon.png">
     </head>
+    
     <body>
-       <h1>Django Shaw</h1> 
-        <div class="navbar">
-            <a href="https://songwhip.com/djangoshaw">Original Music</a>
-            <a href="live.html">Live Dates</a>
-            <a href="https://www.youtube.com/channel/UCTmAOxd_QH1fksejpXSVEAg/">YouTube</a>
-                </div>
+        <div class="video-container">
+            <video autoplay muted loop playsinline id="bg-video">
+                <source src="/img/DjBg.mp4" type="video/mp4">
+            </video>
+            <div class="content">
+                <h1>Django Shaw</h1> 
             </div>
+            
+            <div class="navbar">
+                <a href="https://songwhip.com/djangoshaw">Original Music</a>
+                <a href="live.html">Live Dates</a>
+                <a href="https://www.youtube.com/channel/UCTmAOxd_QH1fksejpXSVEAg/">YouTube</a>
+            </div>
+        </div>
     <!--        <div class="dropdown">
                 <button class="dropbtn">
                     Projects
@@ -37,14 +63,17 @@
                 <div class=lan lang=de style= right:55px;>
             <a href="/de/django.html">DE</a>
         </div>
-<!-- About --> 
-<div class=p style="top: 400px; left: 100px; text-align: justify; width: 30%">
+<!-- About  
+<div class=p style="top: 400px; left: 50px; text-align: justify; width: 50%">
     <p>
-        Django Shaw is an 18-year-old jazz pianist based in Valais, Switzerland. He has experience playing solo and in rock, pop and jazz ensembles, and on acoustic pianos as well as synthesisers.
+        Django Shaw is an 18-year-old jazz pianist based in Valais, 
+        Switzerland. He has experience playing solo and in rock, 
+        pop and jazz ensembles, and on acoustic pianos as well as 
+        synthesisers.
     </p>
-</div>
+</div> -->
 <!-- Embedded spotify --> 
-<iframe style="border-radius:12px; position: absolute; right: 10px; top: 160px" title="spotify" src="https://open.spotify.com/embed/artist/3b1VE6bwKeC04nYHCC4tWb?utm_source=generator&theme=0" width="400" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>       
+<iframe style="border-radius:12px; position: absolute; right: 10px; bottom: 0px" title="spotify" src="https://open.spotify.com/embed/artist/3b1VE6bwKeC04nYHCC4tWb?utm_source=generator&theme=0" width="400" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>       
 <!-- Embedded YouTube --> 
 <!-- <iframe width="560" height="315" style="position:absolute; bottom:0px; left: 0px; height:165px; width=75%;" src="https://www.youtube.com/embed/IG_gHCbZmbo?si=fJYGhFUDmEVKq7HW&autoplay=1;start=2;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
       <!-- contact section -->

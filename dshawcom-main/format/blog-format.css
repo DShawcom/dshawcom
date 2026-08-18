@@ -1,0 +1,83 @@
+.title  {
+  background-color: rgbrgba(0,0,0,0.5);
+  font-family: Helvetica, sans-serif;
+}
+body {
+    background-position: top;
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-color: #fffce7;
+    background-attachment: fixed;
+}
+h1  {
+  color: whitesmoke;
+  font-size:50px;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+.post {
+  width: 70%;
+  height:fit-content;
+  text-align:justify;
+  
+}
+.post h2  {
+  color: #272727;
+  font-size:25px;
+  font-family: Lora, Baskerville, serif;
+  margin: 10;
+  background-color: rgba(0,0,0,0.);
+  position: inherit;
+  
+}
+.post p  {
+  color: #1c1c1c;
+  font-size:16px;
+  font-family: Helvetica, sans-serif;
+  margin: 20;
+  background-color: rgba(0,0,0,0.);
+  position: inherit;
+}
+.post a {
+  color: darkred
+}
+
+
+/* NAVBAR AUG 26 */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+  font-family: Helvetica, sans-serif;
+}
+.navbar.navbar {
+  background-color: rgba(0,0,0,0.5);
+}
+/* Links inside the navbar */
+
+.navbar h1 a {
+color: #f5f5f5;
+
+padding: 20px 20px;
+}
+
+.navbar p a {
+  float: left;
+  font-size: 16px;
+  color: whitesmoke;
+  border: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar p a:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+    
+.navbar h1 a:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+/* END NAVBAR */

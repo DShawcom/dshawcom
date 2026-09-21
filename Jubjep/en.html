@@ -224,8 +224,34 @@ body {
   }
 }
     
+.hover-text {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    font-family: verdana, geneva, tahoma, sans-serif;
+    color: rgb(231,198,247);
+    text-shadow: 0 0 12px rgba(196, 112, 232, 1.0);
+    font-style: italic;
+    font-size: 1rem;
+}
     
-    
+.popup {
+    display: none;
+    font-family: verdana, geneva, tahoma, sans-serif;
+    color: rgb(231,198,247);
+    text-shadow: 0 0 12px rgba(196, 112, 232, 1.0);
+    font-style: italic;
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+
+.hover-text:hover .popup {
+    display: block;
+}  
     
 .venues{
   margin: 40px auto 60px auto;
